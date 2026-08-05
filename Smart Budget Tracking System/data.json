@@ -1,0 +1,13 @@
+{
+    "income": 3000.0,
+    "next_id": 2,
+    "expenses": [
+        {
+            "expense_id": 1,
+            "amount": 200.0,
+            "category": "needs",
+            "description": "food",
+            "created_at": "2026-08-06"
+        }
+    ]
+}

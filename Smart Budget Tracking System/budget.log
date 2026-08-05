@@ -1,0 +1,53 @@
+2026-08-05 20:56:59 - INFO - === Application Started ===
+2026-08-05 20:57:05 - INFO - BudgetManager created with income: 40000.0
+2026-08-05 20:57:05 - INFO - User set income: 40000.0
+2026-08-05 20:58:39 - INFO - Expense added: Expense(id=1, amount=2000.00, category='needs', description='food')
+2026-08-05 21:00:49 - INFO - Report generated successfully
+2026-08-05 21:01:03 - INFO - Data saved to data.json
+2026-08-05 21:01:19 - INFO - Data loaded from data.json
+2026-08-05 21:01:19 - INFO - Data loaded: 1 expenses
+2026-08-05 21:31:59 - INFO - Expense deleted: Expense(id=1, amount=2000.00, category='needs', description='food')
+2026-08-05 21:32:14 - INFO - Data saved to data.json
+2026-08-05 22:03:22 - INFO - === Application Started ===
+2026-08-05 22:03:38 - INFO - === Application Started ===
+2026-08-05 22:03:44 - INFO - BudgetManager created with income: 50000.0
+2026-08-05 22:03:44 - INFO - User set income: 50000.0
+2026-08-05 22:19:46 - ERROR - BudgetError: Expense with ID 2 not found.
+2026-08-05 22:19:46 - ERROR - Failed to delete expense: Expense with ID 2 not found.
+2026-08-05 22:19:53 - ERROR - BudgetError: Expense with ID 1 not found.
+2026-08-05 22:19:53 - ERROR - Failed to delete expense: Expense with ID 1 not found.
+2026-08-05 22:19:59 - INFO - Data saved to data.json
+2026-08-05 22:20:12 - ERROR - BudgetError: Expense with ID 0 not found.
+2026-08-05 22:20:12 - ERROR - Failed to delete expense: Expense with ID 0 not found.
+2026-08-05 22:20:19 - INFO - Data saved to data.json
+2026-08-05 22:20:41 - ERROR - BudgetError: Expense with ID 1 not found.
+2026-08-05 22:20:41 - ERROR - Failed to delete expense: Expense with ID 1 not found.
+2026-08-05 22:20:43 - INFO - Data saved to data.json
+2026-08-05 22:22:16 - INFO - === Application Started ===
+2026-08-05 22:22:29 - INFO - BudgetManager created with income: 20000.0
+2026-08-05 22:22:29 - INFO - User set income: 20000.0
+2026-08-05 22:22:47 - INFO - Expense added: Expense(id=1, amount=4000.00, category='needs', description='food')
+2026-08-05 22:23:08 - INFO - Data saved to data.json
+2026-08-05 22:24:09 - INFO - Expense deleted: Expense(id=1, amount=4000.00, category='needs', description='food')
+2026-08-05 22:24:21 - INFO - Data saved to data.json
+2026-08-05 22:29:09 - INFO - === Application Started ===
+2026-08-05 22:33:14 - INFO - === Application Started ===
+2026-08-06 00:32:11 - INFO - === Application Started ===
+2026-08-06 00:32:15 - INFO - BudgetManager created with income: 4000.0
+2026-08-06 00:32:15 - INFO - User set income: 4000.0
+2026-08-06 00:32:36 - WARNING - Invalid category attempt: saving
+2026-08-06 00:32:36 - ERROR - BudgetError: Invalid category: 'saving'. Allowed: needs/wants/savings.
+2026-08-06 00:32:36 - ERROR - Failed to add expense: Invalid category: 'saving'. Allowed: needs/wants/savings.
+2026-08-06 00:33:14 - INFO - Expense added: Expense(id=1, amount=2000.00, category='savings', description='free')
+2026-08-06 00:33:22 - INFO - Data saved to data.json
+2026-08-06 00:34:13 - INFO - Data loaded from data.json
+2026-08-06 00:34:13 - INFO - Data loaded: 1 expenses
+2026-08-06 00:34:24 - INFO - Report generated successfully
+2026-08-06 00:35:20 - INFO - Expense deleted: Expense(id=1, amount=2000.00, category='savings', description='free')
+2026-08-06 00:35:31 - INFO - Data saved to data.json
+2026-08-06 00:44:28 - INFO - === Application Started ===
+2026-08-06 00:44:32 - INFO - BudgetManager created with income: 3000.0
+2026-08-06 00:44:32 - INFO - User set income: 3000.0
+2026-08-06 00:44:47 - INFO - Expense added: Expense(id=1, amount=200.00, category='needs', description='food')
+2026-08-06 00:44:55 - INFO - Report generated successfully
+2026-08-06 00:45:17 - INFO - Data saved to data.json
