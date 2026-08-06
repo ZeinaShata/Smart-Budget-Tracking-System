@@ -84,7 +84,7 @@ def main():
                 print(f"Error: {e}")
                 
         elif choice == "6":
-            print(f"\nRemaining Budget: {manager.calculate_remaining_budget()} جنيه")
+            print(f"\nRemaining Budget: {manager.calculate_remaining_budget()} EGP")
             print("\nRemaining By Category:")
             for category, value in manager.remaining_by_category().items():
                 print(f"  {category}: {value}")
