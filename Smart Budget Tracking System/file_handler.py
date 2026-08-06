@@ -55,18 +55,6 @@ class FileHandler:
             logging.error(f"Error loading data: {e}")
             return None
 
-    @staticmethod
-    def export_to_csv(expenses: List[Any], filename: str = "expenses.csv") -> None:
-        """
-        Export expenses to a CSV file.
-        
-        Args:
-            expenses: List of Expense objects to export
-            filename: Name of the CSV file to save to (default: expenses.csv)
-        
-        Raises:
-            IOError: If there's an error writing to the file
-        """
         import csv
         try:
             with open(filename, "w", newline="", encoding="utf-8") as f:
